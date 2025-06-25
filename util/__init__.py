@@ -3,8 +3,9 @@
 print('__init__ is trigger')
 COLOR = 'red'
 
-# Re-export from test1.py
-from .test1 import a, b, x
-
 #case 4:
 # from .test1 import a, b, x
+
+#case 4:
+from .test1 import a, b, x
+__all__ = ['a', 'COLOR'] #限制import的variable

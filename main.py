@@ -52,8 +52,23 @@ def b():
 # print(COLOR)
 # print(x)
 
-#case 4:
-from util import a, b, x, COLOR
-a()
-b()
-print(COLOR, x)
+# case 4:
+# from util import a, b, x, COLOR
+# a()
+# b()
+# print(COLOR, x)
+
+# case 4.1:
+# from util import *
+# a()
+# b()
+# print(COLOR)
+
+#===================================
+# input function
+name = input('please input your name: ')
+print(name)
+age = input("please input your age: ")
+age = float(age) * 365.25
+print(age)
+
